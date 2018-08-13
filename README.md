@@ -22,15 +22,15 @@ https://github.com/obfuscator-llvm/obfuscator/wiki
 
 ##### Build:
 
-  * git clone https://github.com/AllocAndInit/ollvm5.0.1.git
+  * git clone https://github.com/antizy0/ollvm5.0.1.git
   
   * mkdir build
   
   * cd build
   
-  * cmake -DCMAKE_BUILD_TYPE=Release ../ollvm5.0.1
+  * cmake -DCMAKE_BUILD_TYPE=Release -DLLVM_INCLUDE_TESTS=OFF ../ollvm5.0.1 
   
-  * make -j7
+  * make -j2
      
 ##### Use:
 
